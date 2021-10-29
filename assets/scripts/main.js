@@ -19,11 +19,15 @@ window.addEventListener('DOMContentLoaded', init);
 async function init() {
   // fetch the recipes and wait for them to load
   let fetchSuccessful = await fetchRecipes();
+
+  console.log(fetchSuccessful);
+
   // if they didn't successfully load, quit the function
   if (!fetchSuccessful) {
     console.log('Recipe fetch unsuccessful');
     return;
   };
+
   // Add the first three recipe cards to the page
   createRecipeCards();
   // Make the "Show more" button functional
@@ -43,6 +47,18 @@ async function fetchRecipes() {
     // in the recipes folder and fetch them from there. You'll need to add their paths to the recipes array.
 
     // Part 1 Expose - TODO
+    for (let i = 0; i < recipes.length; i++) {
+      fetch(recipes[i])
+        .then((response) => response.json())
+        .then((data) => {
+          recipeData[recipes[i]] = data;
+          console.log(recipeData[recipes[i]]); //testing
+
+          if (recipes.length == Object.keys(recipeData).length)
+            resolve(true);
+        })
+        .catch((error) => { reject(false); });
+    }
   });
 }
 
@@ -54,6 +70,12 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+
+  console.log(Object.keys(recipeData).length);
+
+  //for (let i = 0; i < recipeData.length; i++) {
+    //
+  //}
 }
 
 function bindShowMore() {
