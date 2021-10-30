@@ -19,9 +19,6 @@ window.addEventListener('DOMContentLoaded', init);
 async function init() {
   // fetch the recipes and wait for them to load
   let fetchSuccessful = await fetchRecipes();
-
-  console.log(fetchSuccessful);
-
   // if they didn't successfully load, quit the function
   if (!fetchSuccessful) {
     console.log('Recipe fetch unsuccessful');
@@ -70,12 +67,11 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
-
-  console.log(Object.keys(recipeData).length);
-
-  //for (let i = 0; i < recipeData.length; i++) {
-    //
-  //}
+  for (const key in recipeData) {
+    var element = document.createElement("recipe-card");
+    element.data = recipeData[key];
+    document.querySelector("main").appendChild(element);
+  }
 }
 
 function bindShowMore() {
