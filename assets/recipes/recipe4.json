@@ -1,0 +1,263 @@
+{
+    "@context": "https:\/\/schema.org",
+    "@type": "Recipe",
+    "@id": "https:\/\/www.tasteofhome.com\/recipes\/halloween-pumpkin-bars\/",
+    "name": "Halloween Pumpkin Bars",
+    "prepTime": "PT30M",
+    "cookTime": "PT20M",
+    "totalTime": "PT50M",
+    "image": [
+        "https:\/\/tmbidigitalassetsazure.blob.core.windows.net\/rms3-prod\/attachments\/37\/1200x1200\/Halloween-Pumpkin-Bars_EXPS_PCBBZ20_37598_B08_19_7b.jpg",
+        [
+            "https:\/\/cdn3.tmbi.com\/toh\/GoogleImages\/Halloween-Pumpkin-Bars_EXPS_PCBBZ20_37598_B08_19_7b.jpg"
+        ],
+        [
+            "https:\/\/cdn3.tmbi.com\/toh\/GoogleImagesPostCard\/Halloween-Pumpkin-Bars_EXPS_PCBBZ20_37598_B08_19_7b.jpg"
+        ]
+    ],
+    "recipeCategory": [
+        "Desserts"
+    ],
+    "description": "My family loves the warm pumpkin fragrance that wafts through our kitchen on cool fall afternoons when I make these bars. Jack-o'-lantern faces only add to the festive fall flavor. &mdash;Karla Johnson, East Helena, Montana\r\n",
+    "recipeIngredient": [
+        "1-1\/2 cups pumpkin pie filling",
+        "2 cups sugar",
+        "1 cup canola oil",
+        "4 large eggs, room temperature",
+        "1 teaspoon vanilla extract",
+        "2 cups all-purpose flour",
+        "2 teaspoons baking powder",
+        "1 teaspoon baking soda",
+        "1\/2 teaspoon salt",
+        "1 cup chopped pecans",
+        "1 can (16 ounces) cream cheese frosting",
+        "Yellow and red food coloring",
+        "1\/2 cup milk chocolate chips",
+        " Candy corn and additional milk chocolate chips"
+    ],
+    "recipeInstructions": "Preheat oven to 350\u00b0. In a large bowl, beat pumpkin, sugar, oil, eggs and vanilla. Combine flour, baking powder, baking soda and salt; gradually add to pumpkin mixture and mix well. Stir in pecans.,    Pour into a greased 15x10x1-in. baking pan. Bake 20-25 minutes or until a toothpick inserted in the center comes out clean. Cool on a wire rack.,    Tint frosting orange with yellow and red food coloring. Frost bars; cut into 35 squares. ,    In a microwave, melt chocolate chips; stir until smooth. Transfer to a heavy-duty resealable plastic bag; cut a small hole in a corner of the bag. Decorate as desired.",
+    "recipeYield": "35 bars.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 243 calories",
+        "fatContent": "12g fat (2g saturated fat)",
+        "cholesterolContent": "22mg cholesterol",
+        "sodiumContent": "151mg sodium",
+        "carbohydrateContent": "33g carbohydrate (25g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "2g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http:\/\/schema.org\/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.181818,
+        "reviewCount": 11,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-12",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "julie1425"
+            },
+            "reviewBody": "I would make again in a LARGER PAN!! I followed recipe to a T and it totally overflowed in my oven!! I used my 10x15x1 inch jelly roll pan as per instructions and disaster struck!! I actaully tried it again, to make sure \"I\" didnt screw up my measurements on ingredients or the pan size..my husband watched and double checked for me even!! It overflowed again ( this time I put foil down in the oven just in case ) I was sooo craving these and they DID smell wonderful :) I am going to use my 11x17x1 inch sheet pan next time!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-15",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "murphyr"
+            },
+            "reviewBody": "The recipe I usually make is just like this, only it calls for 2 cups (which is a regular size can) of pumpkin, and in addition, add 2 teaspoons of cinnamon.  This makes an excellent bar, that is always gobbled up.  I do, indeed use a larger sheet cake pan than this one mentions.The can of prepared pie filling does not have sugar in it.Hope this helps.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-15",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "mrsmasterguns"
+            },
+            "reviewBody": "VERY IMPORTANT...USE A LARGER PAN!!  I didn't notice the August review in time and this went all over my over.  What a mess.  I am sure they are delightful and they are fun, but no way does this recipe work in a 15 x 10!!!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-22",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "nancye49"
+            },
+            "reviewBody": "My daughter who rarely cooks has made these several times since we got the recipe.  As I work I am luckey there are any left.  I did not have the smaller pan so used the larger one I did have and it worked really well.  I have baked long enough that when I saw how much the recipe made that my small pan would not work the one we did use was not that much bigger.  The second time she made them I made a Philly Cream Cheese Frosting instead of the canned and it was wonderful.  This is most defently making it my sister's table for Thanskgiving.  Nancy",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-23",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "ab94chiefs"
+            },
+            "reviewBody": "I used a tube of black frosting rather that the melted chocolate to save time.  The faces were sooo cute.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-23",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "ab94chiefs"
+            },
+            "reviewBody": "I used a tube of black frosting rather than the melted chocolate to save time. The faces were sooo cute.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-23",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "sugarrose100111"
+            },
+            "reviewBody": "This is so good.  I made it for harvest, did not make the faces but did frost with cream cheese frosting I already had made in the frig.  Everyone loved it.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-10-25",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "ktsosa"
+            },
+            "reviewBody": "Delicious!! These were very moist, I made the cake the day before, wrapped it in cling wrap and left it overnight, then frosted it the day of my party. It was an instant hit! Helpful hints: I added about 1\/2 tsp of pumpkin pie spice to the batter, since the pumpkin pie filling is only mildly spiced. Also, after frosting the cake, place it in the refrigerator (or freezer) until the frosting is slightly hardened, this will keep the frosting firm around the edges when cutting the bars.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2009-11-08",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "constans"
+            },
+            "reviewBody": "I've had many requests to make this desert over and over again. First, for my daughter's Halloween party, then again for a Holiday party (without the Jack-o-lantern faces).",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2012-11-03",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "Kaytan"
+            },
+            "reviewBody": "The recipe was very good.  This was the first time I used pumpkin pie mix.  I like it.  after reading one comment I added 1\/2 tsp. of pumpkin pie spices.  I also had to use a 18X11 inch pan.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2013-10-01",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "CStargardt08"
+            },
+            "reviewBody": "I made this for my book club meeting yesterday and it was a hit!!  I did use the whole can of pumpkin and add 1\/2 tsp. pumpkin pie spice as other reviews had suggested and it made a huge batch - plenty to share and still have leftovers.  Very moist!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": ""
+}
