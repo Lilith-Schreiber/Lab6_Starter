@@ -101,6 +101,87 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+    const image = document.createElement('img');
+    let img = getImgUrl(data);
+    console.log(img);
+    image.setAttribute("src", img);
+    card.appendChild(image);
+    
+    const title = document.createElement('p');
+    const title_child = document.createElement('a');
+    let title_content = getHeader(data);
+    title_child.textContent = title_content;
+    title_child.setAttribute("href", title_content);
+    title.setAttribute("class", "title");
+    title.appendChild(title_child);
+    card.appendChild(title);
+
+    const organization = document.createElement('p');
+    organization.setAttribute("class", "organization");
+    organization.textContent = getOrganization(data);
+    card.appendChild(organization);
+
+    const rating = document.createElement("div");
+    rating.setAttribute("class", "rating");
+    let value = searchForKey(data, "ratingValue");
+    if (value) {
+      const span1 = document.createElement("span");
+      const span2 = document.createElement("span");
+      span1.textContent = value;
+      let count = searchForKey(data, "ratingCount");
+      span2.textContent = count;
+      const rating_image = document.createElement("img");
+      let image_rating_src = "assets/images/icons/" + Math.round(value) + "-star.svg";
+      rating_image.setAttribute("src", image_rating_src);
+      console.log(image_rating_src);
+      rating_image.setAttribute("alt", `${Math.round(value)} star`);
+      rating.appendChild(span1);
+      rating.appendChild(rating_image);
+      rating.appendChild(span2);
+    } else {
+      const span1 = document.createElement("span");
+      span1.textContent = "No Reviews";
+      rating.appendChild(span1);
+    }
+    card.appendChild(rating);
+
+    const time = document.createElement("time");
+    let totalTime = searchForKey(data, "totalTime");
+    let time_convert = convertTime(totalTime);
+    time.setAttribute("time", time_convert);
+    time.textContent = time_convert;
+    card.appendChild(time);
+
+    const ingredient = document.createElement('p');
+    let ingredient_items = searchForKey(data, "recipeIngredient");
+    let ingredient_list = createIngredientList(ingredient_items);
+    ingredient.setAttribute("class", "ingredients");
+    ingredient.textContent = ingredient_list;
+    card.appendChild(ingredient);
+
+    function getImgUrl(data) {
+      if (data.image) return data.image.url;
+      if (data['@graph']) {
+        for (let i = 0; i < data['@graph'].length; i++) {
+          if (data['@graph'][i]['@type'] == 'ImageObject') return data['@graph'][i].url;
+        }
+      };
+      return null;
+    }
+
+    function getHeader(data) {
+      if (data.name) return data.name;
+      if (data['@graph']) {
+        for (let i = 0; i < data['@graph'].length; i++) {
+          if (data['@graph'][i]['@type'] == 'Article') return data['@graph'][i].headline;
+        }
+      };
+      return null;
+    }
+
+
+    this.shadowRoot.appendChild(styleElem);
+    this.shadowRoot.appendChild(card);
   }
 }
 
