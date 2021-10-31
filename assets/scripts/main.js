@@ -70,9 +70,9 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
-  for (const key in recipeData) {
+  for (let i = 0; i < 3; i++) {
     var element = document.createElement("recipe-card");
-    element.data = recipeData[key];
+    element.data = recipeData[recipes[i]];
     document.querySelector("main").appendChild(element);
   }
 }
@@ -92,8 +92,18 @@ function bindShowMore() {
   function show() {
     if (button.textContent == "Show more") {
       button.textContent = "Show less";
+      for (let i = 3; i < recipes.length; i++) {
+        var element = document.createElement("recipe-card");
+        element.data = recipeData[recipes[i]];
+        element.setAttribute("class", "more");
+        document.querySelector("main").appendChild(element);
+      }
     } else {
       button.textContent = "Show more";
+      for (let i = recipes.length; i > 3; i--) {
+        const less = document.querySelector(".more");
+        less.parentNode.removeChild(less);
+      }
     }
   }
 }
