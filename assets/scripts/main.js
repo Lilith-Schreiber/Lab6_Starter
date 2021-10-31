@@ -95,6 +95,5 @@ function bindShowMore() {
     } else {
       button.textContent = "Show more";
     }
-    fetchRecipes();
   }
 }
